@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+.container {
+  max-width: 660px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 8px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.item {
+  margin: 20px;
+  padding: 32px;
+  width: 304px;
+  border-radius: 8px;
+  background: #ffffff;
+}
+.item:hover {
+  box-shadow: 0.5px 0.5px 0.5px #ffffff;
+}
+.space-between {
+  justify-content: space-between;
+}
+.center {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.align-center {
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.add-button {
+  width: 240px;
+  height: 48px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+.add-button p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+.img-check {
+  margin-right: 16px;
+}
+.text-color-white {
+  color: #ffffff;
+}
+.text-color-black {
+  color: #1c1c1c;
+}
+.color-green-bt {
+  background: #40b25c;
+}
+.color-ligth-green-bt {
+  background: #a3f9b9;
+}
+.color-green-bt:hover {
+  background: #1c6c3e;
+}
+.whish-list {
+  position: absolute;
+  margin-left: -48px;
+}
+.whish-list-default {
+  background-image: url(icon/wishlist_default.png);
+  width: 48px;
+  height: 48px;
+}
+.whish-list-default:hover {
+  background-image: url(icon/wishlist_default_hover.png);
+}
+.whish-list-selected {
+  background-image: url(icon/wishlist_selected.png);
+  width: 48px;
+  height: 48px;
+}
+.whish-list-selected:hover {
+  background-image: url(icon/wishlist_selected_hover.png);
+}
+.img-item {
+  width: 240px;
+  height: 240px;
+}
+.text-item {
+  margin: 0 auto;
+  text-align: left;
+  width: 240px;
+}
+.description {
+  margin-top: 28px;
+  height: 60px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #1c1c1c;
+}
+.old-price {
+  margin-top: 24px;
+  font-size: 14px;
+  color: #b5b5b6;
+  text-decoration: line-through;
+  line-height: 20px;
+}
+.price {
+  margin-top: 4px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #da4b4f;
+}
+.payment {
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 4px;
+  margin-bottom: 32px;
+  color: #848587;
+  font-weight: 500;
+}
+.payment spam {
+  color: #1c1c1c;
+}
+.Header-profile {
+  padding: 15px;
+  background-color: #53a8e5;
+  margin: 0 auto;
+  
+}
+.Header-profile img{
+  margin-left: 60px;
 }
